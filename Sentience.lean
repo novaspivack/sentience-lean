@@ -1,0 +1,44 @@
+-- Sentience (Paper 72): Self-Indexing Adjudicative Manifold
+-- Root barrel: public module surface.
+
+import Sentience.Core.Framework
+import Sentience.Core.RecordLayer
+import Sentience.Core.ProcessWindow
+import Sentience.Core.InvariantWitnesses
+import Sentience.Core.Invariants
+import Sentience.Core.EncodingRobustness
+import Sentience.Core.DefectProfiles
+import Sentience.Core.OSIAM
+import Sentience.Measures.Timescales
+import Sentience.Measures.Bottlenecks
+import Sentience.Measures.Burdens
+import Sentience.Measures.TimescaleRelativity
+import Sentience.Topology.Betti
+import Sentience.Topology.Persistence
+import Sentience.Topology.Unity
+import Sentience.Topology.Recursion
+import Sentience.Foothills.CausalReconciliation
+import Sentience.Foothills.MirrorFreshness
+import Sentience.Foothills.PartitionStability
+import Sentience.Foothills.AdjudicativeOpenness
+import Sentience.Ridges.ProxyDrift
+import Sentience.Ridges.Fragmentation
+import Sentience.Ridges.Dissociation
+import Sentience.Summit.ViabilityBoundary
+import Sentience.Examples.Countermodels
+import Sentience.Examples.FiniteWitnesses
+import Sentience.Classification.RegimePartition
+import Sentience.Classification.SeparationTheorems
+import Sentience.Protocols.AdjudicationProtocol
+import Sentience.Protocols.AuditProtocol
+import Sentience.Interventions.InterventionTheory
+import Sentience.Phenomenology.PSIAM
+import Sentience.Geometry.FisherMetric
+import Sentience.Geometry.CurvatureBounds
+import Sentience.Geometry.ManifoldStructure
+import Sentience.Bridges.ToNEMS
+import Sentience.Bridges.ToReflexiveClosure
+import Sentience.Bridges.ToViableContinuation
+import Sentience.Bridges.ToPaper31
+import Sentience.Bridges.ToPaper33
+import Sentience.Bridges.ToPaper16
