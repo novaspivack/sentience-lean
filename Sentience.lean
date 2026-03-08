@@ -38,6 +38,8 @@ import Sentience.Geometry.CurvatureBounds
 import Sentience.Geometry.ManifoldStructure
 import Sentience.Bridges.ToNEMS
 import Sentience.Bridges.ToReflexiveClosure
+import Sentience.Bridges.BridgePremises
+import Sentience.Bridges.Discharge
 import Sentience.Bridges.ToViableContinuation
 import Sentience.Bridges.ToPaper31
 import Sentience.Bridges.ToPaper33

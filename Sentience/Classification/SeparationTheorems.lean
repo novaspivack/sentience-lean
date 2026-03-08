@@ -19,10 +19,10 @@ namespace Classification
 variable {F : NemS.Framework}
 
 /-- Predicate: σ is a pure feedforward controller (no recurrent state). -/
-def IsFeedforward (σ : Core.ProcessWindow F) : Prop := True  -- Stub: structural definition
+def IsFeedforward (_σ : Core.ProcessWindow F) : Prop := True  -- Stub: structural definition
 
 /-- Predicate: σ has stateful dynamics but is not self-modeling. -/
-def IsStateful (σ : Core.ProcessWindow F) : Prop := True  -- Stub: structural definition
+def IsStateful (_σ : Core.ProcessWindow F) : Prop := True  -- Stub: structural definition
 
 /-- Feedforward controller does not imply OSIAM. -/
 axiom feedforward_not_OSIAM

@@ -20,10 +20,10 @@ variable {F : NemS.Framework}
 inductive RegimeClass | zero | one | two | three | four | five
 
 /-- Dead replay: system replays past without live adjudication. -/
-def DeadReplay (σ : Core.ProcessWindow F) : Prop := False  -- Stub: structural definition
+def DeadReplay (_σ : Core.ProcessWindow F) : Prop := False  -- Stub: structural definition
 
 /-- Unresolved drift: drift without operational resolution. -/
-def UnresolvedDrift (σ : Core.ProcessWindow F) : Prop := False  -- Stub: structural definition
+def UnresolvedDrift (_σ : Core.ProcessWindow F) : Prop := False  -- Stub: structural definition
 
 /-- Operational adjudicator: has live choice points and resolution. -/
 def OperationalAdjudicator (σ : Core.ProcessWindow F) : Prop := Core.OSIAM σ

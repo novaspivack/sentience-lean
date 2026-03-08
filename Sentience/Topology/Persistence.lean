@@ -38,7 +38,7 @@ theorem noise_stabilized_implies_persistence
   unfold P1; exact hPc
 
 /-- Mere recurrence: system has recurrence but not necessarily self-indexed. -/
-def MereRecurrence (σ : Core.ProcessWindow F) : Prop := True  -- Stub
+def MereRecurrence (_σ : Core.ProcessWindow F) : Prop := True  -- Stub
 
 /-- Self-indexed: recursion ties future self to present. -/
 def SelfIndexed (σ : Core.ProcessWindow F) : Prop := Core.RecursiveSelfUpdateHolds σ

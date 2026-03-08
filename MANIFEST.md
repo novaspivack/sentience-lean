@@ -11,17 +11,17 @@
 - [x] Symlink: `72_Sentience_Program/sentience-lean -> ~/sentience-lean`
 - [x] lakefile.lean (mathlib, viable-continuation-lean)
 - [x] Directory structure per MASTER_SPEC §3
-- [x] MANIFEST.md, docs/Spine.md, docs/ClaimTyping.md, docs/DependencyMap.md, docs/SIAM_Audit_Protocol.md, docs/NonExamples.md, docs/EngineeringUseCases.md
+- [x] MANIFEST.md, docs/Spine.md, docs/ClaimTyping.md, docs/DependencyMap.md, docs/SIAM_Audit_Protocol.md, docs/NonExamples.md, docs/EngineeringUseCases.md, docs/IndependenceAudit.md, docs/NoTautologyAudit.md, docs/BRIDGE_DISCHARGE_PLAN.md, docs/DISCHARGE_NEXT_STEPS.md
 
 ## Phase II–VI Lean Work Complete
 
-- [x] Core: Framework, RecordLayer, ProcessWindow, InvariantWitnesses, Invariants, DefectProfiles, OSIAM
+- [x] Core: Framework, RecordLayer, ProcessWindow, InvariantWitnesses, Invariants, DefectProfiles, OSIAM, EncodingRobustness
 - [x] Measures: Timescales, Bottlenecks, Burdens, TimescaleRelativity
 - [x] Topology: Betti (ReconciliationSimplex), Persistence, Unity, Recursion
-- [x] Foothills: CausalReconciliation, MirrorFreshness, AdjudicativeOpenness
-- [x] Ridges: ProxyDrift
+- [x] Foothills: CausalReconciliation, MirrorFreshness, PartitionStability, AdjudicativeOpenness
+- [x] Ridges: ProxyDrift, Fragmentation, Dissociation
 - [x] Summit: ViabilityBoundary
-- [x] Bridges: ToViableContinuation
+- [x] Bridges: BridgePremises, Discharge, ToViableContinuation, ToNEMS, ToReflexiveClosure, ToPaper31, ToPaper33, ToPaper16
 - [x] Examples: Countermodels, FiniteWitnesses
 - [x] Classification: RegimePartition, SeparationTheorems
 - [x] Protocols: AuditProtocol
@@ -29,7 +29,7 @@
 - [x] Phenomenology: PSIAM
 - [x] Geometry: FisherMetric, CurvatureBounds, ManifoldStructure
 
-**Build:** `lake build` succeeds. Some theorems use axioms for bridge/measure stubs; zero sorry in proved code.
+**Build:** `lake build` succeeds (8111 jobs). Some theorems use axioms for bridge/measure stubs; zero sorry in proved code. Sentience linter warnings (unused variables) fixed 2026-03-08; remaining warnings in upstream AwarenessGround only.
 
 ## NEMS & Reflexive-Closure Integration (Wired)
 

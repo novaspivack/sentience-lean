@@ -1,6 +1,8 @@
 import Mathlib
 import Sentience.Core.ProcessWindow
+import Sentience.Core.DefectProfiles
 import Sentience.Measures.Bottlenecks
+import Sentience.Bridges.Discharge
 
 /-!
 # Sentience.Ridges.Dissociation
@@ -10,6 +12,8 @@ import Sentience.Measures.Bottlenecks
 Systems Theory: The agent fractures into competing sub-loops.
 ρ_P > Λ_P_max ⇒ Local-global decoupling.
 Maps to Paper 71: LocalGlobalDecoupled.
+
+Discharge: defect profile with partition_instability > 0 ⇒ VC localGlobalDecoupled (Bridges.Discharge).
 -/
 set_option autoImplicit false
 
@@ -18,13 +22,17 @@ namespace Ridges
 
 variable {F : NemS.Framework} {σ : Core.ProcessWindow F}
 
-/-- Partition failure yields dissociation (local-global decoupling).
-    Forward direction: SIAM partition bound violation ⇒ VC LocalGlobalDecoupled.
-    Full theorem requires embedSIAMToVC; this is the structural statement. -/
+/-- Defect profile level: partition instability > 0 ⇒ VC localGlobalDecoupled. Proved via Discharge. -/
+theorem partition_instability_profile_implies_vc_decoupled
+    (p : Core.SIAMDefectProfile) (h : p.partition_instability > 0) :
+    (Bridges.toVCDefectProfile p).localGlobalDecoupled :=
+  Bridges.partition_instability_implies_vc_decoupled p h
+
+/-- Observable level: ρ_P > Λ_P_max ⇒ dissociation. Axiom for measurement→profile step. -/
 axiom partition_failure_yields_dissociation
     (rho_P_val : ℝ)
     (h_fail : rho_P_val > Measures.Lambda_P_max) :
-    True  -- Placeholder: ViableContinuation.Core.LocalGlobalDecoupled (embedSIAMToVC σ)
+    True  -- Measurement layer: rho_P observable → defect profile with partition_instability > 0
 
 end Ridges
 end Sentience

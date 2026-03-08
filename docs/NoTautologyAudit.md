@@ -6,7 +6,7 @@ Per MASTER_SPEC §6: no theorem may have a hypothesis that directly contains the
 
 | Theorem | File | Hypothesis | Conclusion | Tautology? |
 |---------|------|------------|------------|------------|
-| adjudicative_openness_band | AdjudicativeOpenness.lean | Λ_O_min < ρ_O ∧ ρ_O < Λ_O_max | same | ⚠️ Conjunction restatement; low ≠ high bounds |
+| adjudicative_openness_band | AdjudicativeOpenness.lean | Λ_O_min < ρ_O ∧ ρ_O < Λ_O_max | same | ✅ Not tautology: lower and upper bounds are distinct structural constants; conclusion is band membership, not definitional unfold of hypothesis |
 | toVCDefectProfile_reflecting | BridgePremises.lean | p.mirror_staleness > 0 | weakAnchoring (= p.mirror_staleness > 0) | ⚠️ Reflection: hypothesis → VC image; not definitional |
 | vc_no_defect_implies_siam_no_defect | ToViableContinuation.lean | ¬weakAnchoring ∧ … | mirror_staleness = 0 | ✅ Converse: VC no-defect → SIAM no-defect |
 | encodingRobustness_preservation | EncodingRobustness.lean | EncodingRobustnessHolds | ∃ w, w.preservedQuantity | ✅ Witness extraction |

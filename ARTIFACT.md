@@ -10,7 +10,7 @@ lake update
 lake build
 ```
 
-Expected: `Build completed successfully.`
+Expected: `Build completed successfully` (8111 jobs). Zero sorry; Sentience linter warnings fixed.
 
 ## Structure
 
@@ -18,9 +18,9 @@ Expected: `Build completed successfully.`
 - **Measures:** Timescales, Bottlenecks, Burdens, TimescaleRelativity
 - **Topology:** Betti (ReconciliationSimplex), Persistence, Unity, Recursion
 - **Foothills:** CausalReconciliation, MirrorFreshness, AdjudicativeOpenness
-- **Ridges:** ProxyDrift
-- **Summit:** ViabilityBoundary (OSIAMBoundaryDefect, embedSIAMToVC, osiam_collapse_at_boundary)
-- **Bridges:** ToViableContinuation
+- **Ridges:** ProxyDrift, Fragmentation, Dissociation
+- **Summit:** ViabilityBoundary (OSIAMBoundaryDefect, osiam_defect_implies_vc_defect proved, osiam_collapse_at_boundary axiom). embedSIAMToVC in Bridges.ToViableContinuation (SIAMVCSubclass).
+- **Bridges:** BridgePremises, Discharge, ToViableContinuation, ToNEMS, ToReflexiveClosure, ToPaper31, ToPaper33, ToPaper16
 - **Examples:** Countermodels, FiniteWitnesses
 - **Classification:** RegimePartition, SeparationTheorems
 - **Protocols:** AuditProtocol

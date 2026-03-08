@@ -23,7 +23,7 @@ variable {F : NemS.Framework} (σ : ProcessWindow F)
     that admissible recodings preserve the quantity.) -/
 theorem encodingRobustness_preservation
     (h : EncodingRobustnessHolds σ) :
-    ∃ w : EncodingRobustnessWitness σ, True := by
+    ∃ _ : EncodingRobustnessWitness σ, True := by
   obtain ⟨w⟩ := h
   exact ⟨w, trivial⟩
 

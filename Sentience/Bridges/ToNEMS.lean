@@ -27,7 +27,7 @@ variable {F : NemS.Framework}
 /-- Bridge hypothesis: A SIAM window with mirror structure induces a self-semantic
     frame satisfying barrier hypotheses. When this holds, mirror non-exhaustion
     follows from no_final_self_theory. -/
-def siamInducesBarrierFrame (F : NemS.Framework) (σ : Core.ProcessWindow F) : Prop :=
+def siamInducesBarrierFrame (F : NemS.Framework) (_σ : Core.ProcessWindow F) : Prop :=
   True  -- Placeholder: ∃ (W : Type _) (SF : SemanticSelfDescription.SelfSemanticFrame W),
         -- BarrierHypotheses SF ∧ (structural link from σ to SF)
 
@@ -36,7 +36,7 @@ def siamInducesBarrierFrame (F : NemS.Framework) (σ : Core.ProcessWindow F) : P
     the invariant holds. -/
 theorem mirror_non_exhaustion_from_witness
     (σ : Core.ProcessWindow F) (w : Core.MirrorNonExhaustionWitness σ)
-    (h : w.exhaustionLtOne) :
+    (_ : w.exhaustionLtOne) :
     Core.MirrorNonExhaustionHolds σ := ⟨w⟩
 
 /-- Bridge theorem: when siamInducesBarrierFrame holds, mirror non-exhaustion follows from

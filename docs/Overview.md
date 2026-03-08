@@ -1,6 +1,6 @@
 # sentience-lean — Overview
 
-Paper 72 formalizes the **Self-Indexing Adjudicative Manifold (SIAM)** as a bounded dynamical regime in phase space — the boundary condition for unified, self-modeling, decision-making systems.
+Paper 72 formalizes the **Self-Indexing Adjudicative Manifold (SIAM)** as a bounded dynamical regime in phase space — the boundary condition for **unified agency** and self-modeling, decision-making systems. Operational names: *unified agency*, *self-indexed unity*, *viable subject-window*, *adjudicative manifold* (per MASTER_SPEC naming note).
 
 ## Two Tiers
 
@@ -9,9 +9,9 @@ Paper 72 formalizes the **Self-Indexing Adjudicative Manifold (SIAM)** as a boun
 
 ## Core Notions
 
-- **ProcessWindow σ:** Temporally extended window [t₀, t₁] with state trajectory, record layer, and timescales.
-- **Seven Invariants:** Refining Ledger, Self/Other Partition, Recursive Self-Update, Mirror (coverage/freshness/non-exhaustion), Adjudication (live/resolution/deposition), Reconciliation, Encoding Robustness.
-- **OSIAM σ:** Nonempty OSIAMWitness — witness-carrying structure, not bare Prop.
+- **ProcessWindow σ:** Viable subject-window: temporally extended [t₀, t₁] with state trajectory, record layer, and timescales.
+- **Seven Invariants:** Refining Ledger, Self/Other Partition, Recursive Self-Update (self-indexed unity), Mirror (coverage/freshness/non-exhaustion), Adjudication (live/resolution/deposition), Reconciliation, Encoding Robustness.
+- **OSIAM σ:** Unified agency regime — Nonempty OSIAMWitness (witness-carrying structure, not bare Prop).
 - **Bridge to Paper 71:** SIAMDefectProfile → VCDefectProfile; embedSIAMToVC; summit via VC boundary theorem.
 
 ## Build
@@ -21,3 +21,12 @@ cd ~/sentience-lean
 lake update
 lake build
 ```
+
+Expected: 8111 jobs, 0 sorry. Sentience linter warnings fixed; remaining in upstream AwarenessGround.
+
+## References
+
+- `docs/Spine.md` — theorem spine
+- `docs/ClaimTyping.md` — claim taxonomy
+- `docs/BRIDGE_DISCHARGE_PLAN.md` — bridge axiom discharge status
+- `docs/DISCHARGE_NEXT_STEPS.md` — Lean-level next steps per axiom

@@ -15,6 +15,8 @@ lake build
 ## Dependencies
 
 - Mathlib v4.29.0-rc3
+- nems-lean (NemS, SemanticSelfDescription / Paper 51)
+- reflexive-closure-lean (AwarenessGround)
 - viable-continuation-lean (Paper 71)
 
 ## Structure

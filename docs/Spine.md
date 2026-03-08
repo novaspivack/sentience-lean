@@ -15,7 +15,7 @@ Dependency order and primitive justification for the SIAM formalization.
 9. **Topology/** — ReconciliationSimplex, Betti, Persistence
 10. **Foothills/** — Bound theorems
 11. **Ridges/** — Pathology mapping to Paper 71
-12. **Summit/** — Viability boundary, embedSIAMToVC
+12. **Summit/** — Viability boundary, osiam_defect_implies_vc_defect (proved)
 13. **Bridges/** — ToViableContinuation, ToNEMS (stubs until NEMS exists)
 
 ## Primitives
