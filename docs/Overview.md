@@ -22,7 +22,7 @@ lake update
 lake build
 ```
 
-Expected: 8111 jobs, 0 sorry. Sentience linter warnings fixed; remaining in upstream AwarenessGround.
+Expected: 8118 jobs, 0 sorry. All load-bearing bridge axioms discharged. Sentience linter warnings fixed; remaining in upstream AwarenessGround.
 
 ## References
 

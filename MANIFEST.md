@@ -21,7 +21,7 @@
 - [x] Foothills: CausalReconciliation, MirrorFreshness, PartitionStability, AdjudicativeOpenness
 - [x] Ridges: ProxyDrift, Fragmentation, Dissociation
 - [x] Summit: ViabilityBoundary
-- [x] Bridges: BridgePremises, Discharge, ToViableContinuation, ToNEMS, ToReflexiveClosure, ToPaper31, ToPaper33, ToPaper16
+- [x] Bridges: BridgePremises, Discharge, ToViableContinuation, ToNEMS, SiamAsVCSystem, ToReflexiveClosure, ToPaper31, ToPaper33, ToPaper16
 - [x] Examples: Countermodels, FiniteWitnesses
 - [x] Classification: RegimePartition, SeparationTheorems
 - [x] Protocols: AuditProtocol
@@ -29,7 +29,7 @@
 - [x] Phenomenology: PSIAM
 - [x] Geometry: FisherMetric, CurvatureBounds, ManifoldStructure
 
-**Build:** `lake build` succeeds (8111 jobs). Some theorems use axioms for bridge/measure stubs; zero sorry in proved code. Sentience linter warnings (unused variables) fixed 2026-03-08; remaining warnings in upstream AwarenessGround only.
+**Build:** `lake build` succeeds (8118 jobs). All load-bearing bridge axioms discharged as theorems (2026-03-08). Zero sorry. Remaining linter warnings in upstream AwarenessGround only.
 
 ## NEMS & Reflexive-Closure Integration (Wired)
 
