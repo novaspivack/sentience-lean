@@ -9,7 +9,7 @@ import Sentience.Core.ProcessWindow
 **Phase III: Information-theoretic burden ℬ_SIAM.**
 
 Admissible burden class, efficiency modifiers, lower envelope.
-Burden–VC capacity bridge to named VC capacity notion.
+Burden–VC capacity bridge: see Bridges.SiamAsVCSystem.burden_above_floor_implies_vc_capacity_deficit.
 -/
 set_option autoImplicit false
 
@@ -37,14 +37,10 @@ noncomputable def B_SIAM_eff : ℝ :=
 
 /-- Burden–VC capacity bridge: when effective burden exceeds admissible floor,
     the system has a capacity deficit in the VC sense.
-    Links to ViableContinuation.Measures.ConstraintCapacity.capacityDeficit. -/
+    Links to ViableContinuation.Measures.ConstraintCapacity.capacityDeficit.
+    Proved in Bridges.SiamAsVCSystem. -/
 def burdenExceedsVCCapacityFloor (σ : Core.ProcessWindow F) (floor : NNReal) : Prop :=
   (B_SIAM_eff σ : ℝ) > (floor : ℝ)
-
-/-- Bridge axiom: burden above floor implies VC capacity deficit under embedding. -/
-axiom burden_above_floor_implies_vc_capacity_deficit
-    (floor : NNReal) (_ : burdenExceedsVCCapacityFloor σ floor) :
-    True  -- Placeholder: capacityDeficit (embedSIAMToVC σ) under VC schema
 
 end Measures
 end Sentience

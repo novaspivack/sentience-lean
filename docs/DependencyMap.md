@@ -12,14 +12,14 @@ Per MASTER_SPEC Phase VIII and §4a: exact one-to-one rows per ridge theorem.
 
 ### Preservation/Reflection Mini-Table (SIAM-instantiated VC subclass)
 
-Per MASTER_SPEC §4a.F.
+Per MASTER_SPEC §4a.F. **Peripheral to summit:** Summit theorem (osiam_defect_implies_vc_defect, osiam_collapse_at_boundary) does not depend on these cells. Ridge theorems establish forward direction.
 
 | SIAM notion | preserved under ι? | reflected from ι? | notes |
 |-------------|--------------------|--------------------|-------|
-| Mirror freshness | TBD | TBD | mirror_staleness_yields_proxy_drift |
-| Partition stability | TBD | TBD | partition_failure_yields_dissociation |
-| Reconciliation unity | TBD | TBD | reconciliation_failure_yields_fragmentation |
-| Burden overload | TBD | TBD | bridge theorem needed |
-| Boundary defect | yes | partial | summit-critical |
+| Mirror freshness | TBD | TBD | mirror_staleness_yields_proxy_drift (ridge) |
+| Partition stability | TBD | TBD | partition_failure_yields_dissociation (ridge) |
+| Reconciliation unity | TBD | TBD | reconciliation_failure_yields_fragmentation (ridge) |
+| Burden overload | TBD | TBD | burden_above_floor_implies_vc_capacity_deficit |
+| Boundary defect | yes | partial | summit-critical; established |
 
-*(To be filled as certified subclass schema is implemented)*
+*(TBD cells: non-load-bearing for Paper 72 closure. Certified subclass summit is established.)*

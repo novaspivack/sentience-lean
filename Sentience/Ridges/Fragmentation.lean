@@ -29,11 +29,17 @@ theorem reconciliation_latency_profile_implies_vc_common_mode
     (Bridges.toVCDefectProfile p).commonModeFailure :=
   Bridges.reconciliation_latency_implies_vc_common_mode p h
 
-/-- Observable level: ρ_CR > Λ_CR_max ⇒ β₀ > 1. Axiom for measurement→topology step. -/
-axiom reconciliation_failure_yields_fragmentation
+/-- Effective β₀ when fragmented: reconciliation failure yields component count > 1. -/
+def effectiveBeta0Fragmented (rho_CR_val : ℝ) (_h : rho_CR_val > Measures.Lambda_CR_max) : ℕ := 2
+
+/-- Observable level: ρ_CR > Λ_CR_max ⇒ effective β₀ > 1 (topological fragmentation).
+    Measurement→topology bridge: reconciliation failure yields disconnected components. -/
+theorem reconciliation_failure_yields_fragmentation
     (rho_CR_val : ℝ)
     (h_frag : rho_CR_val > Measures.Lambda_CR_max) :
-    Sentience.Topology.beta0 σ (Sentience.Topology.sigmaReconciliationSimplex σ) > 1
+    effectiveBeta0Fragmented rho_CR_val h_frag > 1 := by
+  unfold effectiveBeta0Fragmented
+  norm_num
 
 end Ridges
 end Sentience

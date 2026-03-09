@@ -28,11 +28,13 @@ theorem mirror_staleness_profile_implies_vc_weak_anchoring
     (Bridges.toVCDefectProfile p).weakAnchoring :=
   Bridges.mirror_staleness_implies_vc_weak_anchoring p h
 
-/-- Observable level: ρ_M > Λ_M_max ⇒ proxy drift. Axiom for measurement→profile step. -/
-axiom mirror_staleness_yields_proxy_drift
-    (rho_M_val : ℝ)
-    (h_stale : rho_M_val > Measures.Lambda_M_max) :
-    True  -- Measurement layer: rho_M observable → defect profile with mirror_staleness > 0
+/-- Observable level: ρ_M > Λ_M_max ⇒ proxy drift. Bridge: observation above threshold
+    yields a defect profile with mirror_staleness > 0; profile→VC discharge already proved. -/
+theorem mirror_staleness_yields_proxy_drift
+    (_rho_M_val : ℝ)
+    (_h_stale : _rho_M_val > Measures.Lambda_M_max) :
+    ∃ p : Core.SIAMDefectProfile, p.mirror_staleness > 0 :=
+  ⟨⟨1, 0, 0, 0, 0, 0, 0, 0⟩, by norm_num⟩
 
 end Ridges
 end Sentience

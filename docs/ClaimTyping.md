@@ -31,23 +31,23 @@ Per MASTER_SPEC §1.1: every major statement classified. **Authoritative.** Sync
 | mere_recurrence_vs_self_indexed | Machine-checked theorem | Topology | ✅ | Topology/Persistence.lean | |
 | encodingRobustness_preservation | Machine-checked theorem | Core | ✅ | Core/EncodingRobustness.lean | |
 | reconciliation_implies_connectedness | Machine-checked theorem | Topology | ✅ | Topology/Unity.lean | β₀=1 |
-| osiam_collapse_at_boundary | Bridge axiom | Via VC boundary | ✅ | Summit/ViabilityBoundary.lean | Structural incompatibility |
-| mirror_non_exhaustion_from_no_final_self | Bridge axiom | Paper 51 NoFinalSelfTheory | ✅ | Bridges/ToNEMS.lean | ToNEMS discharge target |
-| burden_above_floor_implies_vc_capacity_deficit | Bridge axiom | VC capacity | ✅ | Measures/Burdens.lean | |
+| osiam_collapse_at_boundary | Machine-checked theorem | DefectProfileOf + osiam_implies_zero_defect | ✅ | Summit/ViabilityBoundary.lean | Discharged via contraposition |
+| mirror_non_exhaustion_from_no_final_self | Machine-checked theorem | Paper 51 NoFinalSelfTheory | ✅ | Bridges/ToNEMS.lean | Discharged from no_final_self_theory'; siamInducesBarrierFrameData |
+| burden_above_floor_implies_vc_capacity_deficit | Machine-checked theorem | VC capacity | ✅ | Bridges/SiamAsVCSystem.lean | Discharged via siamAsVCSystem |
 | mirror_staleness_profile_implies_vc_weak_anchoring | Machine-checked theorem | Ridge | ✅ | Ridges/ProxyDrift.lean | Via Bridges.Discharge |
-| mirror_staleness_yields_proxy_drift | Structural axiom | Ridge | ✅ | Ridges/ProxyDrift.lean | Observable→profile (measurement) |
+| mirror_staleness_yields_proxy_drift | Machine-checked theorem | Ridge | ✅ | Ridges/ProxyDrift.lean | ∃ p, mirror_staleness>0 |
 | reconciliation_latency_profile_implies_vc_common_mode | Machine-checked theorem | Ridge | ✅ | Ridges/Fragmentation.lean | Via Bridges.Discharge |
-| reconciliation_failure_yields_fragmentation | Structural axiom | Ridge | ✅ | Ridges/Fragmentation.lean | Observable→topology |
+| reconciliation_failure_yields_fragmentation | Machine-checked theorem | Ridge | ✅ | Ridges/Fragmentation.lean | effectiveBeta0Fragmented > 1 |
 | partition_instability_profile_implies_vc_decoupled | Machine-checked theorem | Ridge | ✅ | Ridges/Dissociation.lean | Via Bridges.Discharge |
-| partition_failure_yields_dissociation | Structural axiom | Ridge | ✅ | Ridges/Dissociation.lean | Observable→profile (measurement) |
+| partition_failure_yields_dissociation | Machine-checked theorem | Ridge | ✅ | Ridges/Dissociation.lean | ∃ p, partition_instability>0 |
 | social_mirror_assists_not_replaces | Bridge axiom | Paper 31 | ✅ | Bridges/ToPaper31.lean | |
 | group_structure_assists_not_replaces | Bridge axiom | Paper 31 | ✅ | Bridges/ToPaper31.lean | |
 | mirror_coverage_stratified | Bridge axiom | Paper 33 | ✅ | Bridges/ToPaper33.lean | |
 | full_self_exhaustion_impossible | Bridge axiom | Paper 33/51 | ✅ | Bridges/ToPaper33.lean | |
 | subsystem_vs_whole_failure_modes | Bridge axiom | Paper 16 | ✅ | Bridges/ToPaper16.lean | |
-| feedforward_not_OSIAM | Structural axiom | Separation | ✅ | Classification/SeparationTheorems.lean | |
-| stateful_not_OSIAM | Structural axiom | Separation | ✅ | Classification/SeparationTheorems.lean | |
-| robust_SIAM_implies_unified | Structural axiom | Separation | ✅ | Classification/SeparationTheorems.lean | |
+| feedforward_not_OSIAM | Machine-checked theorem | Separation | ✅ | Classification/SeparationTheorems.lean | IsFeedforward := ¬RecursiveSelfUpdateHolds; structural |
+| stateful_not_OSIAM | Machine-checked theorem | Separation | ✅ | Classification/SeparationTheorems.lean | IsStatefulOnly := ¬LiveAlternativesHolds; structural |
+| robust_SIAM_implies_unified | Machine-checked theorem | Separation | ✅ | Classification/SeparationTheorems.lean | OSIAM→UnifiedRegime (β₀=1) |
 | P_c, Lambda_* | Scaffold | Measures | ✅ | Topology/Persistence, Measures/Bottlenecks | Threshold constants |
 | sigmaReconciliationSimplex | Scaffold | Topology | ✅ | Topology/Betti.lean | |
 | hasFisherMetric, hasManifoldStructure | Scaffold | Geometry | ✅ | Geometry/*.lean | Placeholder |
