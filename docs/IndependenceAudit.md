@@ -1,4 +1,4 @@
-# Independence Audit — Paper 72
+# Independence Audit — Paper 73
 
 Per MASTER_SPEC: no invariant definitionally implies another.
 

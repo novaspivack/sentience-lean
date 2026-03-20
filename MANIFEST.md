@@ -8,7 +8,7 @@
 ## Phase I Deliverables
 
 - [x] Repo initialized at `~/sentience-lean`
-- [x] Symlink: `72_Sentience_Program/sentience-lean -> ~/sentience-lean`
+- [x] Symlink: `73_Sentience_Program/sentience-lean -> ~/sentience-lean`
 - [x] lakefile.lean (mathlib, viable-continuation-lean)
 - [x] Directory structure per MASTER_SPEC §3
 - [x] MANIFEST.md, docs/Spine.md, docs/ClaimTyping.md, docs/DependencyMap.md, docs/SIAM_Audit_Protocol.md, docs/NonExamples.md, docs/EngineeringUseCases.md, docs/IndependenceAudit.md, docs/NoTautologyAudit.md, docs/BRIDGE_DISCHARGE_PLAN.md, docs/DISCHARGE_NEXT_STEPS.md

@@ -1,6 +1,6 @@
 # sentience-lean
 
-**Paper 72: The Constraint Theory of Autonomous Agency and Sentience**
+**Paper 73: The Constraint Theory of Autonomous Agency and Sentience**
 
 Formalization of the **Self-Indexing Adjudicative Manifold (SIAM)** — a bounded dynamical regime in phase space defining the boundary conditions for unified, self-modeling systems.
 

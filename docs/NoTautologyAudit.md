@@ -1,4 +1,4 @@
-# No-Tautology Audit — Paper 72
+# No-Tautology Audit — Paper 73
 
 Per MASTER_SPEC §6: no theorem may have a hypothesis that directly contains the inequality it concludes, modulo definitional unfolding.
 

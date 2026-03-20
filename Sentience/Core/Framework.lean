@@ -6,7 +6,7 @@ import NemS.Core.Basics
 
 **Re-exports NemS.Framework.**
 
-Paper 72 uses NemS.Core.Basics.Framework: Model, Rec, Truth.
+Paper 73 uses NemS.Core.Basics.Framework: Model, Rec, Truth.
 Provides world-type/observational machinery for ProcessWindow.
 -/
 set_option autoImplicit false

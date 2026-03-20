@@ -1,4 +1,4 @@
-# Claim Typing — Paper 72
+# Claim Typing — Paper 73
 
 Per MASTER_SPEC §1.1: every major statement classified. **Authoritative.** Sync with MASTER_SPEC theorem/axiom/scaffold table.
 

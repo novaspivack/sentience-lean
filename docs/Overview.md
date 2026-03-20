@@ -1,6 +1,6 @@
 # sentience-lean — Overview
 
-Paper 72 formalizes the **Self-Indexing Adjudicative Manifold (SIAM)** as a bounded dynamical regime in phase space — the boundary condition for **unified agency** and self-modeling, decision-making systems. Operational names: *unified agency*, *self-indexed unity*, *viable subject-window*, *adjudicative manifold* (per MASTER_SPEC naming note).
+Paper 73 formalizes the **Self-Indexing Adjudicative Manifold (SIAM)** as a bounded dynamical regime in phase space — the boundary condition for **unified agency** and self-modeling, decision-making systems. Operational names: *unified agency*, *self-indexed unity*, *viable subject-window*, *adjudicative manifold* (per MASTER_SPEC naming note).
 
 ## Two Tiers
 

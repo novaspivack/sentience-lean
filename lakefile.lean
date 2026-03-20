@@ -2,7 +2,7 @@ import Lake
 open Lake DSL
 
 package «sentience-lean» where
-  -- Constraint Theory of Autonomous Agency and Sentience (Paper 72)
+  -- Constraint Theory of Autonomous Agency and Sentience (Paper 73)
   -- Self-Indexing Adjudicative Manifold (SIAM) formalization
 
 require mathlib from git

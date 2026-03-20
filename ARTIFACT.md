@@ -1,6 +1,6 @@
 # sentience-lean — Artifact
 
-**Paper 72: Constraint Theory of Autonomous Agency and Sentience**
+**Paper 73: Constraint Theory of Autonomous Agency and Sentience**
 
 ## Build
 
@@ -29,6 +29,6 @@ Expected: `Build completed successfully` (8118 jobs). Zero sorry; Sentience lint
 
 ## Status
 
-- **Paper 72 locked (2026-03-08):** All load-bearing bridge axioms discharged as theorems. Phases I–VI complete.
+- **Paper 73 locked (2026-03-08):** All load-bearing bridge axioms discharged as theorems. Phases I–VI complete.
 - Summit, ridge, separation, burden–VC, mirror non-exhaustion (Paper 51), profile-level discharge: all proved.
 - Zero sorry in flagship spine.

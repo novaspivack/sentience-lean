@@ -1,4 +1,4 @@
-# Bridge Axiom Discharge Plan — Paper 72
+# Bridge Axiom Discharge Plan — Paper 73
 
 Per MASTER_SPEC: bridge axioms have explicit provenance. This document tracks discharge status and upstream requirements.
 

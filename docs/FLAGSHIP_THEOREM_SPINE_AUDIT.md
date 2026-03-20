@@ -1,4 +1,4 @@
-# Flagship Theorem Spine Audit — Paper 72
+# Flagship Theorem Spine Audit — Paper 73
 
 Per closure rule: every load-bearing claim in abstract and Sections 1–12 must be theorem-proved or properly imported. No paper-local bridge axioms, structural axioms, or scaffolds may carry the flagship argumentative burden.
 
@@ -75,7 +75,7 @@ Per closure rule: every load-bearing claim in abstract and Sections 1–12 must 
 
 *Rationale:* Summit, mirror, burden, and pathology bridge are more central to the flagship theorem spine than the positive robust-unified implication.
 
-## Computational Gaps (Paper 72)
+## Computational Gaps (Paper 73)
 
 | Pillar | Status | Required |
 |--------|--------|----------|
@@ -91,7 +91,7 @@ Per closure rule: every load-bearing claim in abstract and Sections 1–12 must 
 
 ## Closure Criterion
 
-Paper 72 is complete **only when**:
+Paper 73 is complete **only when**:
 - No load-bearing claim depends on bridge/structural axioms or semantic scaffolds
 - All separation claims are theorem-backed or certified-countermodel-backed
 - All flagship pillars have computational validation

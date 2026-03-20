@@ -1,4 +1,4 @@
--- Sentience (Paper 72): Self-Indexing Adjudicative Manifold
+-- Sentience (Paper 73): Self-Indexing Adjudicative Manifold
 -- Root barrel: public module surface.
 
 import Sentience.Core.Framework

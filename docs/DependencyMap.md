@@ -1,4 +1,4 @@
-# Dependency Map — Paper 72 ↔ Paper 71
+# Dependency Map — Paper 73 ↔ Paper 71
 
 Per MASTER_SPEC Phase VIII and §4a: exact one-to-one rows per ridge theorem.
 
@@ -22,4 +22,4 @@ Per MASTER_SPEC §4a.F. **Peripheral to summit:** Summit theorem (osiam_defect_i
 | Burden overload | TBD | TBD | burden_above_floor_implies_vc_capacity_deficit |
 | Boundary defect | yes | partial | summit-critical; established |
 
-*(TBD cells: non-load-bearing for Paper 72 closure. Certified subclass summit is established.)*
+*(TBD cells: non-load-bearing for Paper 73 closure. Certified subclass summit is established.)*

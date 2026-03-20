@@ -8,7 +8,7 @@ import Sentience.Core.OSIAM
 
 **Phase Vc / §6.2: Concrete finite SIAM witnesses.**
 
-Per spec: Paper 31/33 include concrete finite witnesses; Paper 72 needs the same.
+Per spec: Paper 31/33 include concrete finite witnesses; Paper 73 needs the same.
 Structured witness type; construction axiom.
 -/
 set_option autoImplicit false
