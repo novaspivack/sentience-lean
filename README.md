@@ -22,3 +22,6 @@ lake build
 ## Structure
 
 See `MANIFEST.md` and `docs/Spine.md` for the formal architecture and theorem catalog.
+<!-- NOVA_ZPO_ZENODO_SOFTWARE_BEGIN -->
+**Archival software (Zenodo):** https://doi.org/10.5281/zenodo.19429245
+<!-- NOVA_ZPO_ZENODO_SOFTWARE_END -->
