@@ -22,4 +22,4 @@ require mathlib from git
 
 @[default_target]
 lean_lib «Sentience» where
-  globs := #[.submodules `Sentience]
+  roots := #[`Sentience]
